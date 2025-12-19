@@ -44,6 +44,17 @@ To run the unit tests:
 dotnet test ReverseString.sln
 ```
 
+## Running the Demo
+
+To see the reverse string functionality in action:
+```bash
+dotnet run --project ReverseString.Demo/ReverseString.Demo.csproj
+```
+
+The demo application will:
+1. Show several examples of string reversal
+2. Allow you to interactively enter strings to reverse
+
 ## Test Coverage
 
 The test suite includes:
@@ -61,8 +72,12 @@ The test suite includes:
 ├── ReverseString.sln              # Solution file
 ├── ReverseString.Library/         # Main library
 │   ├── StringReverser.cs          # StringReverser implementation
+│   ├── README.md                  # This documentation
 │   └── ReverseString.Library.csproj
-└── ReverseString.Tests/           # Unit tests
-    ├── UnitTest1.cs               # Test cases
-    └── ReverseString.Tests.csproj
+├── ReverseString.Tests/           # Unit tests
+│   ├── UnitTest1.cs               # Test cases
+│   └── ReverseString.Tests.csproj
+└── ReverseString.Demo/            # Demo console application
+    ├── Program.cs                 # Interactive demo
+    └── ReverseString.Demo.csproj
 ```
