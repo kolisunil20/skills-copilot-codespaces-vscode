@@ -60,7 +60,7 @@ The test suite includes:
 ```
 ├── ReverseString.sln              # Solution file
 ├── ReverseString.Library/         # Main library
-│   ├── Class1.cs                  # StringReverser implementation
+│   ├── StringReverser.cs          # StringReverser implementation
 │   └── ReverseString.Library.csproj
 └── ReverseString.Tests/           # Unit tests
     ├── UnitTest1.cs               # Test cases
